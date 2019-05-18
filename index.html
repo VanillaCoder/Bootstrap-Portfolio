@@ -1,58 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About</title>
 </head>
+
 <body background="assets/images/white-waves.png">
     <!-- nabvar -->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
-                <a class="navbar-brand" href="#">Liam Hartigan</a>
-                <div class="ml-auto"></div>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                    <span class="navbar-toggle-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse flex-grow-0" id="navbarMenu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item active">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-<div class="container">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <h2>About Me</h2>
+    <nav class="navbar navbar-expand-sm navbar-fix-top bg-dark navbar-dark justify-content-end">
+        <a class="navbar-brand" href="#">Liam Hartigan</a>
+        <div class="ml-auto"></div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+    <div class="jumbotron" style="text-align: center">
+        <h1 class="display-4">About Me</h1>
+        <img src="assets/images/myphoto.jpg" class="align-self-start mr-3" id="my-photo" alt="...">
+
+        <p class="lead">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" id="linkedin" class="btn btn-secondary">LinkedIn</button>
+                <button type="button" id="github" class="btn btn-secondary">GitHub</button>
+            </div>
+        </p>
+        <hr class="my-4">
+        <p>Web Developer who attended the UC Davis full-stack web development program. Skilled in HTML,
+            CSS, Javascript, jQuery, and Bootstrap. Thrives in a fast paced and cooperative environment
+            and is passionate about the way in which coding allows the ability to tackle problems with
+            both analytical skill and creativity. Encompasses the ability to be personable and creative,
+            as well as analytical, therefore, well-positioned for a role in development.</p>
     </div>
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <div class="media">
-                  <img src="assets/images/myphoto.jpg" class="align-self-start mr-3" id="my-photo" alt="...">
+<!-- old design
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="media">
+                    <img src="assets/images/myphoto.jpg" class="align-self-start mr-3" id="my-photo" alt="...">
                     <div class="media-body">
-                        <p>Web Developer who attended the UC Davis full-stack web development program. Skilled in  HTML, CSS, Javascript, jQuery, and Bootstrap. Thrives in a fast paced and cooperative environment and is passionate about the way in which coding allows the ability to tackle problems with both analytical skill and creativity.  Encompasses the ability to be personable and creative, as well as analytical, therefore, well-positioned for a role in development.</p>
+                        <p>Web Developer who attended the UC Davis full-stack web development program. Skilled in HTML,
+                            CSS, Javascript, jQuery, and Bootstrap. Thrives in a fast paced and cooperative environment
+                            and is passionate about the way in which coding allows the ability to tackle problems with
+                            both analytical skill and creativity. Encompasses the ability to be personable and creative,
+                            as well as analytical, therefore, well-positioned for a role in development.</p>
                     </div>
                 </div>
-            </div>  
-    </div>
-</div>
+            </div>
+        </div>
+    </div> -->
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-secondary">Right</button>
+      </div> -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>
